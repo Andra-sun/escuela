@@ -237,7 +237,7 @@ sala{
     border-radius: 10px;
 }
 
-#materia{
+materia{
     position: absolute;
     width: 149px;
     height: 34px;
@@ -249,7 +249,7 @@ sala{
     border-radius: 10px;
 }
 
-#dia{
+dia{
     position: absolute;
     width: 149px;
     height: 34px;

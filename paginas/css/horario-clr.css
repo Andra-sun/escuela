@@ -12,101 +12,102 @@ body {
     margin: 10px;
 }
   
-#retangulo1{
+#retangulo1 {
     position: absolute;
     width: 100%;
-    height: 60px;
-    left: 0px;
-    top: 0px;
+    height: 6.5%; /* 60px é aproximadamente 6.5% da altura da tela (926px) */
+    left: 0;
+    top: 0;
     background: #20CD8D;
     border-radius: 2px;
 
     font-family: 'JetBrains Mono';
     font-style: normal;
     font-weight: 400;
-    font-size: 35px;
-    line-height: 55px;
+    font-size: 400%; /* 35px é aproximadamente 3.8% da altura da tela (926px) */
+    line-height: 190%; /* 55px é aproximadamente 5.9% da altura da tela (926px) */
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-align: center;
 }
 
+
 #retangulo2{
     position: absolute;
-    width: 362px;
-    height: 600px;
-    left: 34px;
-    top: 130px;
+    width: 84.6%;
+    height: 64.8%;
+    left: 7.9%;
+    top: 14%;
     background: #20CD8D;
     border-radius: 10px;
 }
 
-#caixa1{
+#caixa1 {
     position: absolute;
-    width: 172px;
-    height: 92px;
-    left: 142px;
-    top: 168px;
+    width: 40%; /* 172px é aproximadamente 40% da largura da tela (428px) */
+    height: 9.9%; /* 92px é aproximadamente 9.9% da altura da tela (926px) */
+    left: 33.2%; /* 142px é aproximadamente 33.2% da largura da tela (428px) */
+    top: 18.1%; /* 168px é aproximadamente 18.1% da altura da tela (926px) */
     background: #388367;
     mix-blend-mode: normal;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
 
-#caixa2{
+#caixa2 {
     position: absolute;
-    width: 172px;
-    height: 92px;
-    left: 142px;
-    top: 278px;
+    width: 40%; /* 172px é aproximadamente 40% da largura da tela (428px) */
+    height: 9.9%; /* 92px é aproximadamente 9.9% da altura da tela (926px) */
+    left: 33.2%; /* 142px é aproximadamente 33.2% da largura da tela (428px) */
+    top: 30.1%; /* 278px é aproximadamente 30.1% da altura da tela (926px) */
     background: #388367;
     mix-blend-mode: normal;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
 
-#caixa3{
+#caixa3 {
     position: absolute;
-    width: 172px;
-    height: 92px;
-    left: 142px;
-    top: 388px;
+    width: 40%; /* 172px é aproximadamente 40% da largura da tela (428px) */
+    height: 9.9%; /* 92px é aproximadamente 9.9% da altura da tela (926px) */
+    left: 33.2%; /* 142px é aproximadamente 33.2% da largura da tela (428px) */
+    top: 42.1%; /* 388px é aproximadamente 42.1% da altura da tela (926px) */
     background: #388367;
     mix-blend-mode: normal;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
 
-#caixa4{
+#caixa4 {
     position: absolute;
-    width: 172px;
-    height: 92px;
-    left: 142px;
-    top: 498px;
+    width: 40%; /* 172px é aproximadamente 40% da largura da tela (428px) */
+    height: 9.9%; /* 92px é aproximadamente 9.9% da altura da tela (926px) */
+    left: 33.2%; /* 142px é aproximadamente 33.2% da largura da tela (428px) */
+    top: 54.1%; /* 498px é aproximadamente 54.1% da altura da tela (926px) */
     background: #388367;
     mix-blend-mode: normal;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
 
-#caixa5{
+#caixa5 {
     position: absolute;
-    width: 172px;
-    height: 92px;
-    left: 142px;
-    top: 608px;
+    width: 40%; /* 172px é aproximadamente 40% da largura da tela (428px) */
+    height: 9.9%; /* 92px é aproximadamente 9.9% da altura da tela (926px) */
+    left: 33.2%; /* 142px é aproximadamente 33.2% da largura da tela (428px) */
+    top: 66.1%; /* 608px é aproximadamente 66.1% da altura da tela (926px) */
     background: #388367;
     mix-blend-mode: normal;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
 
-#dia1{
+#dia1 {
     position: absolute;
-    width: 91px;
-    height: 29px;
-    left: 15px;
-    top: 193px;
+    width: 21.3%; /* 91px é aproximadamente 21.3% da largura da tela (428px) */
+    height: 3.1%; /* 29px é aproximadamente 3.1% da altura da tela (926px) */
+    left: 3.5%; /* 15px é aproximadamente 3.5% da largura da tela (428px) */
+    top: 20.8%; /* 193px é aproximadamente 20.8% da altura da tela (926px) */
     background: #249068;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -114,20 +115,20 @@ body {
     font-family: 'JetBrains Mono';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    /* or 142% */
+    font-size: 250%; 
+    line-height: 150%;
     text-align: center;
     color: #FFFFFF;
     mix-blend-mode: normal;
 }
 
-#dia2{
+
+#dia2 {
     position: absolute;
-    width: 91px;
-    height: 29px;
-    left: 15px;
-    top: 307px;
+    width: 21.3%; /* 91px é aproximadamente 21.3% da largura da tela (428px) */
+    height: 3.1%; /* 29px é aproximadamente 3.1% da altura da tela (926px) */
+    left: 3.5%; /* 15px é aproximadamente 3.5% da largura da tela (428px) */
+    top: 33.2%; /* 307px é aproximadamente 33.2% da altura da tela (926px) */
     background: #249068;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -135,20 +136,19 @@ body {
     font-family: 'JetBrains Mono';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    /* or 142% */
+    font-size: 250%; 
+    line-height: 150%;
     text-align: center;
     color: #FFFFFF;
     mix-blend-mode: normal;
 }
 
-#dia3{
+#dia3 {
     position: absolute;
-    width: 91px;
-    height: 29px;
-    left: 15px;
-    top: 418px;
+    width: 21.3%; /* 91px é aproximadamente 21.3% da largura da tela (428px) */
+    height: 3.1%; /* 29px é aproximadamente 3.1% da altura da tela (926px) */
+    left: 3.5%; /* 15px é aproximadamente 3.5% da largura da tela (428px) */
+    top: 45.2%; /* 418px é aproximadamente 45.2% da altura da tela (926px) */
     background: #249068;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -156,21 +156,19 @@ body {
     font-family: 'JetBrains Mono';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    /* or 142% */
+    font-size: 250%; 
+    line-height: 150%;
     text-align: center;
     color: #FFFFFF;
     mix-blend-mode: normal;
-
 }
 
-#dia4{
+#dia4 {
     position: absolute;
-    width: 91px;
-    height: 29px;
-    left: 15px;
-    top: 527px;
+    width: 21.3%; /* 91px é aproximadamente 21.3% da largura da tela (428px) */
+    height: 3.1%; /* 29px é aproximadamente 3.1% da altura da tela (926px) */
+    left: 3.5%; /* 15px é aproximadamente 3.5% da largura da tela (428px) */
+    top: 57.2%; /* 527px é aproximadamente 57.2% da altura da tela (926px) */
     background: #249068;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -178,20 +176,19 @@ body {
     font-family: 'JetBrains Mono';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    /* or 142% */
+    font-size: 250%; 
+    line-height: 150%;
     text-align: center;
     color: #FFFFFF;
     mix-blend-mode: normal;
 }
 
-#dia5{
+#dia5 {
     position: absolute;
-    width: 91px;
-    height: 29px;
-    left: 15px;
-    top: 637px;
+    width: 21.3%; /* 91px é aproximadamente 21.3% da largura da tela (428px) */
+    height: 3.1%; /* 29px é aproximadamente 3.1% da altura da tela (926px) */
+    left: 3.5%; /* 15px é aproximadamente 3.5% da largura da tela (428px) */
+    top: 69.2%; /* 637px é aproximadamente 69.2% da altura da tela (926px) */
     background: #249068;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -199,26 +196,26 @@ body {
     font-family: 'JetBrains Mono';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    /* or 142% */
+    font-size: 250%; 
+    line-height: 150%;
     text-align: center;
     color: #FFFFFF;
     mix-blend-mode: normal;
 }
 
-#opcao{
+#opcao {
     position: absolute;
-    width: 53px;
-    height: 52px;
-    left: 7px;
-    top: 4px;
+    width: 8%; /* 53px é aproximadamente 12.4% da largura da tela (428px) */
+    height: 4%; /* 52px é aproximadamente 5.6% da altura da tela (926px) */
+    left: 2%; /* 7px é aproximadamente 1.6% da largura da tela (428px) */
+    top: 2%; /* 4px é aproximadamente 0.4% da altura da tela (926px) */
     background: #249068;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
 
-#materia{
+
+materia{
     position: absolute;
     width: 149px;
     height: 34px;
@@ -229,7 +226,7 @@ body {
     border-radius: 10px;
 }
 
-#dia{
+dia{
     position: absolute;
     width: 149px;
     height: 34px;
