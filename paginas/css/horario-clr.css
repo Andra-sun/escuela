@@ -19,7 +19,7 @@ body {
     left: 0;
     top: 0;
     background: #20CD8D;
-    border-radius: 2px;
+    border-radius: 0.2vw;
 
     font-family: 'JetBrains Mono';
     font-style: normal;
@@ -38,7 +38,7 @@ body {
     left: 7.9%;
     top: 14%;
     background: #20CD8D;
-    border-radius: 10px;
+    border-radius: 1.4vw;
 }
 
 #caixa1 {
@@ -50,7 +50,7 @@ body {
     background: #388367;
     mix-blend-mode: normal;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+    border-radius: 2.4vw;
   }
 
 #caixa2 {
@@ -62,7 +62,7 @@ body {
     background: #388367;
     mix-blend-mode: normal;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+    border-radius: 2.4vw;
 }
 
 #caixa3 {
@@ -74,7 +74,7 @@ body {
     background: #388367;
     mix-blend-mode: normal;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+    border-radius: 2.4vw;
 }
 
 #caixa4 {
@@ -86,7 +86,7 @@ body {
     background: #388367;
     mix-blend-mode: normal;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+    border-radius: 2.4vw;
 }
 
 #caixa5 {
@@ -98,7 +98,7 @@ body {
     background: #388367;
     mix-blend-mode: normal;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+    border-radius: 2.4vw;
 }
 
 #dia1 {
@@ -109,7 +109,7 @@ body {
     top: 20.3vh;
     background: #249068;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+    border-radius: 1.4vw;
 
     font-family: 'JetBrains Mono';
     font-style: normal;
@@ -130,7 +130,7 @@ body {
     top: 33.2vh;
     background: #249068;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+    border-radius: 1.4vw;
 
     font-family: 'JetBrains Mono';
     font-style: normal;
@@ -151,7 +151,7 @@ body {
     top: 45.2vh; /* 418px é aproximadamente 45.2% da altura da tela (926px) */
     background: #249068;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+    border-radius: 1.4vw;
 
     font-family: 'JetBrains Mono';
     font-style: normal;
@@ -172,7 +172,7 @@ body {
     top: 57.2vh; /* 527px é aproximadamente 57.2% da altura da tela (926px) */
     background: #249068;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+    border-radius: 1.4vw;
 
     font-family: 'JetBrains Mono';
     font-style: normal;
@@ -193,7 +193,7 @@ body {
     top: 69.2vh;/* 637px é aproximadamente 69.2% da altura da tela (926px) */
     background: #249068;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+    border-radius: 1.4vw;
 
     font-family: 'JetBrains Mono';
     font-style: normal;
@@ -214,39 +214,6 @@ body {
     top: 3vh; /* 4px é aproximadamente 0.4% da altura da tela (926px) */
     background: #249068;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-}
-
-
-materia{
-    position: absolute;
-    width: 149px;
-    height: 34px;
-    left: 106px;
-    top: 76px;
-    background: #249068;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-}
-
-dia{
-    position: absolute;
-    width: 149px;
-    height: 34px;
-    left: 271px;
-    top: 76px;
-    background: #249068;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-}
-
-titulo{
-    position: relative;
-    width: 135px;
-    height: 42px;
-    left: 155px;
-    top: 0px;
-    z-index: 999;
-
+    border-radius: 1.4vw;
 }
 

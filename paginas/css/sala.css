@@ -9,7 +9,7 @@
   cursor: pointer;
   background: #249068;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
+  border-radius: 1.4vw;
   border: none;
   text-align: center;
   font-size: 1.4vh;
@@ -18,7 +18,7 @@
 
 .sala-menu {
   position: absolute;
-  left: 82vw;; /* 900px é aproximadamente 30.8% da largura da tela (428px) */
+  left: 82vw; /* 900px é aproximadamente 30.8% da largura da tela (428px) */
   top: 7.45vh; /* 134px é aproximadamente 14.4% da altura da tela (926px) */
   width: 11.1vw; /* 95px é aproximadamente 11.1% da largura da tela (428px) */
   padding: 0.5vh 0; /* 5px é aproximadamente 0.5% da altura da tela (926px) */
@@ -28,8 +28,8 @@
   font-size: 3vw;
   background-color: #249068;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 1vw;
+  border-bottom-right-radius: 1vw;
   z-index: 9;
 }
 
@@ -37,14 +37,14 @@
   background-color: #1cbb81;
   color: #fff;
   padding: 0.3vh 0;
-  margin: 5px;
-  border-radius: 5px;
+  margin: 0.5vw;
+  border-radius: 0.5vw;
   cursor: pointer;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 0.1vh solid #ccc;
 }
 #salaMenu li:hover {
   background-color: #eee;
-  border-radius: 8px;
+  border-radius: 0.8vw;
   color: #1cbb81;
 }
 #sala-butao:focus + #salaMenu {
@@ -61,18 +61,100 @@
 .sala-menu.oculta {
   top: -150px;
 }
-sla {
-  position: absolute;
-  top: 200px;
-  left: 80px;
-  color: #fff;
-}
 
 #mensagem1a {
   position: absolute;
-  width: 40vw; 
+  width: 40vw;
   height: 10vh;
-  left: 33vw; 
+  left: 33vw;
+  top: 19vh;
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 3.2vw; /* 12px é aproximadamente 1.3% da altura da tela (926px) */
+  line-height: 2vh; /* 17px é aproximadamente 1.8% da altura da tela (926px) */
+  text-align: center;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+#mensagem1b {
+  position: absolute;
+  width: 40vw;
+  height: 10vh;
+  left: 33vw;
+  top: 31vh;
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 3.2vw; /* 12px é aproximadamente 1.3% da altura da tela (926px) */
+  line-height: 2vh; /* 117px é aproximadamente 1.8% da altura da tela (926px) */
+  text-align: center;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+#mensagem1c {
+  position: absolute;
+  width: 40vw;
+  height: 10vh;
+  left: 33vw;
+  top: 43vh;
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 3.2vw; /* 12px é aproximadamente 1.3% da altura da tela (926px) */
+  line-height: 2vh; /* 1é aproximadamente 1.8% da altura da tela (926px) */
+  text-align: center;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+#mensagem1d {
+  position: absolute;
+  width: 40vw;
+  height: 10vh;
+  left: 33vw;
+  top: 55vh;
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 3.2vw; /* 12px é aproximadamente 1.3% da altura da tela (926px) */
+  line-height: 2vh; /* 1 é aproximadamente 1.8% da altura da tela (926px) */
+  text-align: center;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+#mensagem1e {
+  position: absolute;
+  width: 40vw;
+  height: 10vh;
+  left: 33vw;
+  top: 67vh;
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 3.2vw; /* 12px é aproximadamente 1.3% da altura da tela (926px) */
+  line-height: 2vh; /* 17px é aproximadamente 1.8% da altura da tela (926px) */
+  text-align: center;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+#mensagem1f {
+  left: 80.42vw;
+  top: 4.1vh;
+  font-size: 3vw;
+  height: 2.7vh;
+  width: 11vw;
+  line-height: 3vh;
+}
+/*  */
+#mensagem2a {
+  position: absolute;
+  width: 40vw;
+  height: 10vh;
+  left: 33vw;
   top: 20vh;
   font-family: "JetBrains Mono";
   font-style: normal;
@@ -80,64 +162,64 @@ sla {
   font-size: 3.2vw; /* 12px é aproximadamente 1.3% da altura da tela (926px) */
   line-height: 100%; /* 17px é aproximadamente 1.8% da altura da tela (926px) */
   text-align: center;
-  color: red;
+  color: #ffffff;
   mix-blend-mode: normal;
 }
 
-#mensagem1b {
+#mensagem2b {
   position: absolute;
-  width: 40vw; 
-  height: 10vh; 
-  left: 33vw; 
-  top: 32vh; 
+  width: 40vw;
+  height: 10vh;
+  left: 33vw;
+  top: 32vh;
   font-family: "JetBrains Mono";
   font-style: normal;
   font-weight: 1000;
   font-size: 3.2vw; /* 12px é aproximadamente 1.3% da altura da tela (926px) */
   line-height: 100%; /* 117px é aproximadamente 1.8% da altura da tela (926px) */
   text-align: center;
-  color: yellow;
+  color: #ffffff;
   mix-blend-mode: normal;
 }
 
-#mensagem1c {
+#mensagem2c {
   position: absolute;
-  width: 40vw; 
-  height: 10vh; 
-  left: 33vw; 
-  top: 44vh; 
+  width: 40vw;
+  height: 10vh;
+  left: 33vw;
+  top: 44vh;
   font-family: "JetBrains Mono";
   font-style: normal;
   font-weight: 1000;
   font-size: 3.2vw; /* 12px é aproximadamente 1.3% da altura da tela (926px) */
   line-height: 100%; /* 1é aproximadamente 1.8% da altura da tela (926px) */
   text-align: center;
-  color: green;
+  color: #ffffff;
   mix-blend-mode: normal;
 }
 
-#mensagem1d {
+#mensagem2d {
   position: absolute;
-  width: 40vw; 
-  height: 10vh; 
-  left: 33vw; 
-  top: 56vh; 
+  width: 40vw;
+  height: 10vh;
+  left: 33vw;
+  top: 56vh;
   font-family: "JetBrains Mono";
   font-style: normal;
   font-weight: 1000;
   font-size: 3.2vw; /* 12px é aproximadamente 1.3% da altura da tela (926px) */
   line-height: 100%; /* 1 é aproximadamente 1.8% da altura da tela (926px) */
   text-align: center;
-  color: #1946da;
+  color: #ffffff;
   mix-blend-mode: normal;
 }
 
-#mensagem1e {
+#mensagem2e {
   position: absolute;
-  width: 40vw; 
-  height: 10vh; 
-  left: 33vw; 
-  top: 68vh; 
+  width: 40vw;
+  height: 10vh;
+  left: 33vw;
+  top: 68vh;
   font-family: "JetBrains Mono";
   font-style: normal;
   font-weight: 1000;
@@ -147,96 +229,11 @@ sla {
   color: #ffffff;
   mix-blend-mode: normal;
 }
-#mensagem1f {
-    left: 80.5vw;
-    top: 4.1vh;
-    font-size: 3vw;
-    height: 2.7vh;
-    width: 11vw;
-    line-height: 3vh;
-}
-
-#mensagem2a {
-  position: absolute;
-  width: 101px;
-  height: 102px;
-  left: 100px;
-  top: -6px;
-  font-family: "JetBrains Mono";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 17px;
-  /* or 142% */
-  text-align: center;
-  color: #ffffff;
-  mix-blend-mode: normal;
-}
-#mensagem2b {
-  position: absolute;
-  width: 101px;
-  height: 102px;
-  left: 100px;
-  top: 104px;
-  font-family: "JetBrains Mono";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 17px;
-  /* or 142% */
-  text-align: center;
-  color: #ffffff;
-  mix-blend-mode: normal;
-}
-#mensagem2c {
-  position: absolute;
-  width: 101px;
-  height: 102px;
-  left: 100px;
-  top: 214px;
-  font-family: "JetBrains Mono";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 17px;
-  /* or 142% */
-  text-align: center;
-  color: #ffffff;
-  mix-blend-mode: normal;
-}
-#mensagem2d {
-  position: absolute;
-  width: 110px;
-  height: 102px;
-  left: 98px;
-  top: 324px;
-  font-family: "JetBrains Mono";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 17px;
-  /* or 142% */
-  text-align: center;
-  color: #ffffff;
-  mix-blend-mode: normal;
-}
-#mensagem2e {
-  position: absolute;
-  width: 101px;
-  height: 102px;
-  left: 100px;
-  top: 434px;
-  font-family: "JetBrains Mono";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 17px;
-  /* or 142% */
-  text-align: center;
-  color: #ffffff;
-  mix-blend-mode: normal;
-}
 #mensagem2f {
-    left: 82vw;
-    top: 5vh;
+  left: 80.42vw;
+  top: 4.1vh;
+  font-size: 3vw;
+  height: 2.7vh;
+  width: 11vw;
+  line-height: 3vh;
 }

@@ -75,11 +75,8 @@ function exibir3b() {
   elemento.style.pointerEvents = 'none';
   elemento.style.zIndex = '9999';
   elemento.style.position = 'relative';
-  elemento.style.width = '75px';
-  elemento.style.height = '34px';
   elemento.style.border = 'none';
   elemento.style.textAlign = 'center';
-  elemento.style.lineHeight = '34px'; 
   elemento.style.display = "block";
 }
 
