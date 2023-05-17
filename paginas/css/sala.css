@@ -1,10 +1,10 @@
 /* celular */
 .sala-botao {
   position: absolute;
-  left: 80%; /* 900px é aproximadamente 30.8% da largura da tela (428px) */
-  top: 4%; /* 85px é aproximadamente 9.2% da altura da tela (926px) */
-  width: 11%; /* 95px é aproximadamente 11.1% da largura da tela (428px) */
-  height: 2.7%; /* 54px é aproximadamente 5.8% da altura da tela (926px) */
+  left: 82vw; /* 900px é aproximadamente 30.8% da largura da tela (428px) */
+  top: 5vh; /* 85px é aproximadamente 9.2% da altura da tela (926px) */
+  width: 11vw; /* 95px é aproximadamente 11.1% da largura da tela (428px) */
+  height: 2.7vh; /* 54px é aproximadamente 5.8% da altura da tela (926px) */
   color: #fff;
   cursor: pointer;
   background: #249068;
@@ -12,19 +12,20 @@
   border-radius: 10px;
   border: none;
   text-align: center;
-  font-size: 160%;
-  line-height: 3.7%; /* 34px é aproximadamente 3.7% da altura da tela (926px) */
+  font-size: 1.4vh;
+  line-height: 2.7vh; /* 34px é aproximadamente 3.7% da altura da tela (926px) */
 }
 
 .sala-menu {
   position: absolute;
-  left: 80%; /* 900px é aproximadamente 30.8% da largura da tela (428px) */
-  top: 6.5%; /* 134px é aproximadamente 14.4% da altura da tela (926px) */
-  width: 11.1%; /* 95px é aproximadamente 11.1% da largura da tela (428px) */
-  padding: 0.5% 0; /* 5px é aproximadamente 0.5% da altura da tela (926px) */
+  left: 82vw;; /* 900px é aproximadamente 30.8% da largura da tela (428px) */
+  top: 7.45vh; /* 134px é aproximadamente 14.4% da altura da tela (926px) */
+  width: 11.1vw; /* 95px é aproximadamente 11.1% da largura da tela (428px) */
+  padding: 0.5vh 0; /* 5px é aproximadamente 0.5% da altura da tela (926px) */
   margin: 0;
   list-style: none;
-  font-size: 160%;
+  text-align: center;
+  font-size: 3vw;
   background-color: #249068;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-bottom-left-radius: 8px;
@@ -35,7 +36,7 @@
 #salaMenu li {
   background-color: #1cbb81;
   color: #fff;
-  padding: 5px;
+  padding: 0.3vh 0;
   margin: 5px;
   border-radius: 5px;
   cursor: pointer;
@@ -147,8 +148,12 @@ sla {
   mix-blend-mode: normal;
 }
 #mensagem1f {
-  left: 82%; /* 900px é aproximadamente 30.8% da largura da tela (428px) */
-  top: 50%;
+    left: 80.5vw;
+    top: 4.1vh;
+    font-size: 3vw;
+    height: 2.7vh;
+    width: 11vw;
+    line-height: 3vh;
 }
 
 #mensagem2a {
@@ -232,6 +237,6 @@ sla {
   mix-blend-mode: normal;
 }
 #mensagem2f {
-  left: -65px;
-  top: -105px;
+    left: 82vw;
+    top: 5vh;
 }
