@@ -1,0 +1,63 @@
+/* celular */
+.menu-botao {
+  position: absolute;
+  width: 8vw; /* 53px é aproximadamente 12.4% da largura da tela (428px) */
+  height: 4vh; /* 52px é aproximadamente 5.6% da altura da tela (926px) */
+  left: 3vw; /* 7px é aproximadamente 1.6% da largura da tela (428px) */
+  top: 4.2vh; /* 4px é aproximadamente 0.4% da altura da tela (926px) */
+  color: #fff;
+  cursor: pointer;
+  background: #249068;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 1.4vw;
+  border: none;
+  text-align: center;
+  font-size: 1.4vh;
+  line-height: 2.7vh; /* 34px é aproximadamente 3.7% da altura da tela (926px) */
+}
+
+.menu-menu {
+  position: absolute;
+  left: 3vw; /* 900px é aproximadamente 30.8% da largura da tela (428px) */
+  top: 7.45vh; /* 134px é aproximadamente 14.4% da altura da tela (926px) */
+  width: 11.1vw; /* 95px é aproximadamente 11.1% da largura da tela (428px) */
+  padding: 0.5vh 0; /* 5px é aproximadamente 0.5% da altura da tela (926px) */
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 3vw;
+  background-color: #249068;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-bottom-left-radius: 1vw;
+  border-bottom-right-radius: 1vw;
+  z-index: 9;
+}
+
+#menuMenu li {
+  background-color: #1cbb81;
+  color: #fff;
+  padding: 0.3vh 0;
+  margin: 0.5vw;
+  border-radius: 0.5vw;
+  cursor: pointer;
+  border-bottom: 0.1vh solid #ccc;
+}
+#menuMenu li:hover {
+  background-color: #eee;
+  border-radius: 0.8vw;
+  color: #1cbb81;
+}
+#menu-but:focus + #menuMenu {
+  display: block;
+}
+#menu-but.active {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#menu-but.no-border-bottom {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.menu-menu.oculta {
+  top: -150px;
+}

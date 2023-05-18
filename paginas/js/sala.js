@@ -30,7 +30,7 @@ function exibir3d() {
   elemento.innerText = "3ºD";
   elemento.style.backgroundColor = "#249068";
   elemento.style.color = "white";
-  elemento.style.borderRadius = '10px';
+  elemento.style.borderRadius = '1vw';
   elemento.style.pointerEvents = 'none';
   elemento.style.zIndex = '9999';
   elemento.style.position = 'relative';
@@ -71,7 +71,7 @@ function exibir3b() {
   elemento.innerText = "3ºB";
   elemento.style.backgroundColor = "#249068";
   elemento.style.color = "white";
-  elemento.style.borderRadius = '10px';
+  elemento.style.borderRadius = '1vw';
   elemento.style.pointerEvents = 'none';
   elemento.style.zIndex = '9999';
   elemento.style.position = 'relative';
