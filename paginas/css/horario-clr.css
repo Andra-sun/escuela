@@ -18,6 +18,8 @@ body {
     height: 7vh; /* 60px é aproximadamente 6.5% da altura da tela (926px) */
     left: 0;
     top: 0;
+    padding: 0;
+    margin: 0;
     background: #20CD8D;
     border-radius: 0.2vw;
 
