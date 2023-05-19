@@ -146,7 +146,6 @@ sla {
   height: 5vh;
   width: 5.7vw;
   font-size: 1.5vw;
-  background-color: #249068;
   color: white;
   text-align: center;
   line-height: 5vh;
@@ -236,9 +235,6 @@ sla {
   height: 5vh;
   width: 5.7vw;
   font-size: 1.5vw;
-  background-color: #249068;
-  color: white;
-  text-align: center;
   line-height: 5vh;
   border-radius: 0.6vw;
 }

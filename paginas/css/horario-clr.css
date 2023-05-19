@@ -20,7 +20,10 @@ body {
     top: 0;
     background: #20CD8D;
     border-radius: 0.2vw;
-
+}
+#titulo{
+    top: 1.2vh;
+    position: relative;
     font-family: 'JetBrains Mono';
     font-style: normal;
     font-weight: 400;
@@ -29,6 +32,7 @@ body {
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-align: center;
+    transition: opacity 0.5s ease-in-out;
 }
 
 #retangulo2{

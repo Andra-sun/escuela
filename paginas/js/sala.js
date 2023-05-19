@@ -72,6 +72,9 @@ function exibir3b() {
   elemento.style.position = 'relative';
   elemento.style.border = 'none';
   elemento.style.display = "block";
+  elemento.style.backgroundColor = "#249068";
+  elemento.style.textAlign = "center";
+  elemento.style.color = "white";
 }
 
 

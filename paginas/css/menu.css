@@ -1,46 +1,54 @@
-/* celular */
 .menu-botao {
   position: absolute;
-  width: 8vw; /* 53px é aproximadamente 12.4% da largura da tela (428px) */
-  height: 4vh; /* 52px é aproximadamente 5.6% da altura da tela (926px) */
-  left: 3vw; /* 7px é aproximadamente 1.6% da largura da tela (428px) */
-  top: 4.2vh; /* 4px é aproximadamente 0.4% da altura da tela (926px) */
+  width: 10vw;
+  height: 5vh;
+  left: 3vw;
+  top: 3.5vh;
   color: #fff;
   cursor: pointer;
   background: #249068;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 1.4vw;
+  border-radius: 1vw;
   border: none;
   text-align: center;
   font-size: 1.4vh;
-  line-height: 2.7vh; /* 34px é aproximadamente 3.7% da altura da tela (926px) */
+  line-height: 2.7vh;
+  z-index: 8;
+}
+.menu-botao:hover {
+  transform: rotate(20deg);
 }
 
 .menu-menu {
   position: absolute;
-  left: 3.2vw; /* 900px é aproximadamente 30.8% da largura da tela (428px) */
-  top: 7.45vh; /* 134px é aproximadamente 14.4% da altura da tela (926px) */
-  width: 15vw; /* 95px é aproximadamente 11.1% da largura da tela (428px) */
-  padding: 0.5vh 0; /* 5px é aproximadamente 0.5% da altura da tela (926px) */
+  left: 15vw;
+  top: 3.9vh;
+  padding: 0.5vh 0;
   margin: 0;
   list-style: none;
   text-align: center;
-  font-size: 3vw;
-  background-color: #249068;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 3.4vw;
   border-radius: 1vw;
-  z-index: 9;
+  z-index: 7;
+  display: flex;
+  transform: translateX(-100%);
+  transition: transform 0.7s ease-in-out, opacity 0.5s ease-in-out;
+}
 
+.menu-menu.aberto {
+  left: 15vw;
+  transform: translateX(0%);
 }
 
 #menuMenu li {
+  width: 13vw;
   background-color: #1cbb81;
   color: #fff;
   padding: 0.5vh 0;
-  margin: 0.5vw;
+  margin: 1vw;
   border-radius: 0.5vw;
   cursor: pointer;
-  border-bottom: 0.1vh solid #ccc;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #menuMenu li:hover {
   background-color: #eee;
@@ -50,45 +58,28 @@
 #menu-but:focus + #menuMenu {
   display: block;
 }
-#menu-but.active {
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+#menuMenu:hover a {
+  color: #575757;
 }
-#menu-but.no-border-bottom {
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+#menuMenu:hover a:hover {
+  color: #5cdb95;
+  box-shadow: 0 2px 0 0 currentColor;
+}
+#menuMenu li:hover a {
+  color: purple;
 }
 .menu-menu.oculta {
-  top: -39vh;
+  opacity: 0;
+  left: 10vw;
+  transform: translateX(-100%);
 }
-
-
-a{
-  color: red;
+#titulo.aberto {
+  opacity: 0;
+}
+a {
+  color: #fff;
   text-decoration: none;
   transition: 0.25s ease;
-  font-size: 20px;
-}
-
-ul{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-ul li{
-  margin-left: 0.75em;
-  margin-right: 0.75em;
-}
-
-ul:hover a{
-  color: #575757;
-}
-
-ul li:hover a{
-  color: #575757;
-}
-
-ul:hover a:hover{
-  color:#5cdb95;
-  box-shadow: 0 2px 0 0 currentColor;
+  z-index: 99999;
+  position: relative;
 }

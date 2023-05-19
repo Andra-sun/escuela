@@ -3,7 +3,7 @@
   width: 4.3vw;
   height: 8vh;
   left: 3vw;
-  top: 7vh; /* 4px é aproximadamente 0.4% da altura da tela (926px) */
+  top: 5.5vh;
   color: #fff;
   cursor: pointer;
   background: #249068;
@@ -12,26 +12,32 @@
   border: none;
   text-align: center;
   font-size: 1.4vh;
-  line-height: 2.7vh; /* 34px é aproximadamente 3.7% da altura da tela (926px) */
+  line-height: 2.7vh;
+  z-index: 8;
 }
-.menu-botao:hover{
+.menu-botao:hover {
   transform: rotate(20deg);
 }
 
 .menu-menu {
   position: absolute;
-  left: 10vw; /* 900px é aproximadamente 30.8% da largura da tela (428px) */
-  top: 6.8vh; /* 134px é aproximadamente 14.4% da altura da tela (926px) */
-  /* 95px é aproximadamente 11.1% da largura da tela (428px) */
-  padding: 0.5vh 0; /* 5px é aproximadamente 0.5% da altura da tela (926px) */
+  left: 10vw;
+  top: 5.5vh;
+  padding: 0.5vh 0;
   margin: 0;
   list-style: none;
   text-align: center;
   font-size: 2vw;
-
   border-radius: 1vw;
-  z-index: 9;
+  z-index: 7;
   display: flex;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.menu-menu.aberto {
+  left: 10vw;
+  transform: translateX(0%);
 }
 
 #menuMenu li {
@@ -52,53 +58,28 @@
 #menu-but:focus + #menuMenu {
   display: block;
 }
-#menuMenu:hover a{
+#menuMenu:hover a {
   color: #575757;
 }
-#menuMenu:hover a:hover{
-  color:#5cdb95;
+#menuMenu:hover a:hover {
+  color: #5cdb95;
   box-shadow: 0 2px 0 0 currentColor;
 }
-#menuMenu li:hover a{
+#menuMenu li:hover a {
   color: purple;
 }
 .menu-menu.oculta {
-  top: -39vh;
+  opacity: 0;
   left: 10vw;
+  transform: translateX(-100%);
 }
-
 #titulo.aberto {
   left: 58vw;
-
 }
-
-a{
+a {
   color: #fff;
   text-decoration: none;
   transition: 0.25s ease;
   z-index: 99999;
   position: relative;
-}
-
-ul{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-ul li{
-  margin-left: 0.75em;
-  margin-right: 0.75em;
-}
-
-ul:hover a{
-  color: #575757;
-}
-
-ul li:hover a{
-  color: purple;
-}
-
-ul:hover a:hover{
-  color:#5cdb95;
-  box-shadow: 0 2px 0 0 currentColor;
 }
