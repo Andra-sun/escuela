@@ -141,15 +141,15 @@ sla {
   color: #ffffff;
 }
 #mensagem1f {
-  left: 89.1vw;
-  top: 4vh;
+  left: 77.36vw;
+  top: 5.5vh;
   height: 5vh;
   width: 5.7vw;
   font-size: 1.5vw;
   background-color: #249068;
   color: white;
   text-align: center;
-  line-height: 5.6vh;
+  line-height: 5vh;
   border-radius: 0.6vw;
 }
 
@@ -231,14 +231,14 @@ sla {
   color: #ffffff;
 }
 #mensagem2f {
-  left: 89.1vw;
-  top: 4vh;
+  left: 77.36vw;
+  top: 5.5vh;
   height: 5vh;
   width: 5.7vw;
   font-size: 1.5vw;
   background-color: #249068;
   color: white;
   text-align: center;
-  line-height: 5.6vh;
+  line-height: 5vh;
   border-radius: 0.6vw;
 }
