@@ -18,6 +18,11 @@
 .menu-botao:hover {
   transform: rotate(20deg);
 }
+.menu-botao::after {
+
+  transform: rotate(0deg);
+
+}
 
 .menu-menu {
   position: absolute;
