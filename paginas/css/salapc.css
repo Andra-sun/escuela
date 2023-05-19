@@ -1,8 +1,8 @@
 /* pc */
 .sala-botao {
   position: absolute;
-  left: 905px;
-  top: 46px;
+  left: 90.5vw;
+  top: 8vh;
   width: 75px;
   height: 34px;
   border: none;
@@ -16,8 +16,8 @@
 }
 .sala-menu {
   position: absolute;
-  left: 905px;
-  top: 80px;
+  left: 90.5vw;
+  top:13vh;
   width: 75px;
   padding: 5px 0;
   margin: 0;
@@ -92,7 +92,7 @@ sla {
   line-height: 25px;
   /* or 125% */
   text-align: center;
-  color: blueviolet;
+  color: #fff;
   mix-blend-mode: normal;
 }
 #mensagem1c {
@@ -141,8 +141,16 @@ sla {
   color: #ffffff;
 }
 #mensagem1f {
-  left: 887px;
-  top: -100px;
+  left: 89.1vw;
+  top: 4vh;
+  height: 5vh;
+  width: 5.7vw;
+  font-size: 1.5vw;
+  background-color: #249068;
+  color: white;
+  text-align: center;
+  line-height: 5.6vh;
+  border-radius: 0.6vw;
 }
 
 #mensagem2a {
@@ -223,6 +231,14 @@ sla {
   color: #ffffff;
 }
 #mensagem2f {
-  left: 887px;
-  top: -100px;
+  left: 89.1vw;
+  top: 4vh;
+  height: 5vh;
+  width: 5.7vw;
+  font-size: 1.5vw;
+  background-color: #249068;
+  color: white;
+  text-align: center;
+  line-height: 5.6vh;
+  border-radius: 0.6vw;
 }

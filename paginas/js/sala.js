@@ -30,12 +30,10 @@ function exibir3d() {
   elemento.innerText = "3ºD";
   elemento.style.backgroundColor = "#249068";
   elemento.style.color = "white";
-  elemento.style.borderRadius = '1vw';
   elemento.style.pointerEvents = 'none';
   elemento.style.zIndex = '9999';
   elemento.style.position = 'relative';
   elemento.style.border = 'none';
-  elemento.style.textAlign = 'center';
   elemento.style.display = "block";
 }
 
@@ -69,14 +67,10 @@ function exibir3b() {
 
   var elemento = document.getElementById("mensagem2f");
   elemento.innerText = "3ºB";
-  elemento.style.backgroundColor = "#249068";
-  elemento.style.color = "white";
-  elemento.style.borderRadius = '1vw';
   elemento.style.pointerEvents = 'none';
   elemento.style.zIndex = '9999';
   elemento.style.position = 'relative';
   elemento.style.border = 'none';
-  elemento.style.textAlign = 'center';
   elemento.style.display = "block";
 }
 
