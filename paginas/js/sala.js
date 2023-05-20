@@ -81,16 +81,15 @@ function exibir3b() {
 function alternarSala() {
   var salaMenu = document.getElementById("salaMenu");
   salaMenu.classList.toggle("oculta");
+
+  var titulo = document.getElementById("titulo");
+  titulo.classList.toggle("aberto");
+
+  var menu1 = document.getElementById("salaMenu");
+  menu1.classList.toggle("aberto");
 }
 
-const salaBtn = document.querySelector('#sala-but');
-const salaLista = document.querySelector('#salaMenu');
 
-salaBtn.addEventListener('click', () => {
-  salaBtn.classList.toggle('active');
-  salaLista.classList.toggle('no-border-bottom');
-  salaLista.style.display = salaBtn.classList.contains('active') ? 'block' : 'none';
-});
 
 function ocultarSala() {
   // Ocultar sala 3ºD

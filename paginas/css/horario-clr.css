@@ -1,28 +1,26 @@
 body {
     background-color: #173637;;
 }
-  
 .container {
     display: grid;
     grid-template-columns: 1fr;
 }
-  
 .card {
     grid-column: 1 / -1;
     margin: 10px;
 }
-  
 #retangulo1 {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 7vh; /* 60px é aproximadamente 6.5% da altura da tela (926px) */
     left: 0;
     top: 0;
     background: #20CD8D;
     border-radius: 0.2vw;
+    margin-top: 0;
 }
 #titulo{
-    top: 1.2vh;
+    top: -8vh;
     position: relative;
     font-family: 'JetBrains Mono';
     font-style: normal;
@@ -34,78 +32,81 @@ body {
     text-align: center;
     transition: opacity 0.5s ease-in-out;
 }
-
 #retangulo2{
-    position: absolute;
-    width: 84.6vw;
+    position: relative;
+    width: 82vw;
     height: 66vh;
-    left: 7.9%;
-    top: 14%;
+    left: 9vw;
+    top: -5vh;
     background: #20CD8D;
     border-radius: 1.4vw;
 }
-
-#caixa1 {
-    position: absolute;
-    width: 40vw; 
-    height: 10vh; 
-    left: 33vw; 
-    top: 18vh; 
+.telinha {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    flex-direction: column;
+    position: relative;
+    top: -71.3vh;
+    left: 33vw;
+    margin: 0
+} 
+.telinha li {
+    width: 40vw;
+    height: 11vh;
     background: #388367;
     mix-blend-mode: normal;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 2.4vw;
-  }
-
-#caixa2 {
-    position: absolute;
-    width: 40vw; 
-    height: 10vh; 
-    left: 33vw; 
-    top: 30vh; 
-    background: #388367;
-    mix-blend-mode: normal;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 2.4vw;
+    z-index: 3;
+    margin: 1vh;
 }
-
-#caixa3 {
-    position: absolute;
-    width: 40vw; 
-    height: 10vh; 
-    left: 33vw; 
-    top: 42vh; 
-    background: #388367;
-    mix-blend-mode: normal;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 2.4vw;
+.semaninha{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    flex-direction: column;
+    position: relative;
+    top: -134.2vh;
+    left: 2vw;
+    margin: 0;
 }
-
-#caixa4 {
-    position: absolute;
-    width: 40vw; 
-    height: 10vh; 
-    left: 33vw; 
-    top: 54vh; 
-    background: #388367;
-    mix-blend-mode: normal;
+.semaninha li{
+    width: 21vw; 
+    height: 3.2vh; 
+    background: #249068;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 2.4vw;
-}
+    border-radius: 1.4vw;
+    margin-top: 1vh;
 
-#caixa5 {
-    position: absolute;
-    width: 40vw; 
-    height: 10vh; 
-    left: 33vw; 
-    top: 66vh; 
-    background: #388367;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw; 
+    font-size: 2vh;
+    line-height: 3vh;
+    text-align: center;
+    color: #FFFFFF;
     mix-blend-mode: normal;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 2.4vw;
 }
-
-#dia1 {
+#dia1{
+    margin-top: 6vw;
+}
+#dia2{
+    margin-top: 21vw;
+}
+#dia3{
+    margin-top: 22vw;
+}
+#dia4{
+    margin-top: 20vw;
+}
+#dia5{
+    margin-top: 20vw;
+}
+dia1 {
     position: absolute;
     width: 21vw; 
     height: 3.2vh; 
@@ -125,8 +126,7 @@ body {
     color: #FFFFFF;
     mix-blend-mode: normal;
 }
-
-#dia2 {
+dia2 {
     position: absolute;
     width: 21vw; 
     height: 3.2vh; 
@@ -146,8 +146,7 @@ body {
     color: #FFFFFF;
     mix-blend-mode: normal;
 }
-
-#dia3 {
+dia3 {
     position: absolute;
     width: 21vw; 
     height: 3.2vh; 
@@ -167,8 +166,7 @@ body {
     color: #FFFFFF;
     mix-blend-mode: normal;
 }
-
-#dia4 {
+dia4 {
     position: absolute;
     width: 21vw; 
     height: 3.2vh; 
@@ -188,8 +186,7 @@ body {
     color: #FFFFFF;
     mix-blend-mode: normal;
 }
-
-#dia5 {
+dia5 {
     position: absolute;
     width: 21vw; 
     height: 3.2vh; 
@@ -209,5 +206,60 @@ body {
     color: #FFFFFF;
     mix-blend-mode: normal;
 }
+caixa1 {
+    position: absolute;
+    width: 40vw; 
+    height: 10vh; 
+    left: 33vw; 
+    top: 18vh; 
+    background: #388367;
+    mix-blend-mode: normal;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2.4vw;
+}
+caixa2 {
+    position: absolute;
+    width: 40vw; 
+    height: 10vh; 
+    left: 33vw; 
+    top: 30vh; 
+    background: #388367;
+    mix-blend-mode: normal;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2.4vw;
+}
+caixa3 {
+    position: absolute;
+    width: 40vw; 
+    height: 10vh; 
+    left: 33vw; 
+    top: 42vh; 
+    background: #388367;
+    mix-blend-mode: normal;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2.4vw;
+}
+caixa4 {
+    position: absolute;
+    width: 40vw; 
+    height: 10vh; 
+    left: 33vw; 
+    top: 54vh; 
+    background: #388367;
+    mix-blend-mode: normal;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2.4vw;
+}
+caixa5 {
+    position:relative;
+    width: 40vw; 
+    height: 10vh; 
+    left: 33vw; 
+    top: 6vh; 
+    background: red;
+    mix-blend-mode: normal;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2.4vw;
 
+}
 
