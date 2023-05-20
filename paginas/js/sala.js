@@ -25,16 +25,7 @@ function exibir3d() {
     .then(data => {
       document.getElementById("mensagem1e").innerText = data;
     })  
-
-  var elemento = document.getElementById("mensagem1f");
-  elemento.innerText = "3ºD";
-  elemento.style.backgroundColor = "#249068";
-  elemento.style.color = "white";
-  elemento.style.pointerEvents = 'none';
-  elemento.style.zIndex = '9999';
-  elemento.style.position = 'relative';
-  elemento.style.border = 'none';
-  elemento.style.display = "block";
+  document.getElementById("sala-but").innerText = "3ºD";
 }
 
 function exibir3b() {
@@ -64,17 +55,7 @@ function exibir3b() {
     .then(data => {
       document.getElementById("mensagem2e").innerText = data;
     }) 
-
-  var elemento = document.getElementById("mensagem2f");
-  elemento.innerText = "3ºB";
-  elemento.style.pointerEvents = 'none';
-  elemento.style.zIndex = '9999';
-  elemento.style.position = 'relative';
-  elemento.style.border = 'none';
-  elemento.style.display = "block";
-  elemento.style.backgroundColor = "#249068";
-  elemento.style.textAlign = "center";
-  elemento.style.color = "white";
+  document.getElementById("sala-but").innerText = "3ºB";
 }
 
 
@@ -98,7 +79,6 @@ function ocultarSala() {
   document.getElementById("mensagem1c").innerText = "";
   document.getElementById("mensagem1d").innerText = "";
   document.getElementById("mensagem1e").innerText = "";
-  document.getElementById("mensagem1f").style.display = "none";
 
   // Ocultar sala 3ºB
   document.getElementById("mensagem2a").innerText = "";
@@ -106,7 +86,6 @@ function ocultarSala() {
   document.getElementById("mensagem2c").innerText = "";
   document.getElementById("mensagem2d").innerText = "";
   document.getElementById("mensagem2e").innerText = "";
-  document.getElementById("mensagem2f").style.display = "none";
 }
 
 

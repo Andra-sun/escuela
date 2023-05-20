@@ -14,7 +14,7 @@
   text-align: center;
   font-size: 1.4vh;
   line-height: 2.7vh;
-  z-index: 999;
+  z-index: 99;
 }
 .sala-menu {
   position: absolute;
@@ -72,8 +72,7 @@
   color: purple;
 }
 
-.days {
-  display: flex;
+/* days {
   flex-wrap: wrap;
   list-style-type: none;
   padding: 0;
@@ -81,72 +80,77 @@
   position: relative;
   left: 33vw;
   top: -197.6vh;
-  margin: 0
-} 
-.days li {
-  width: 40vw;
-  height: 11vh;
+  margin: 0;
   z-index: 999;
-  margin: 1vh;
-
-  font-family: "JetBrains Mono";
-  font-style: normal;
-  font-weight: 1000;
-  font-size: 3.2vw; 
-  line-height: 1.8vh; 
-  text-align: center;
-  color: #ffffff;
-  mix-blend-mode: normal;
-}
-.days2 {
-  display: flex;
+}  */
+.days {
   flex-wrap: wrap;
   list-style-type: none;
   padding: 0;
   flex-direction: column;
   position: relative;
   left: 33vw;
-  top: -262.3vh;
-  margin: 0
-} 
-.days2 li {
-  width: 40vw;
-  height: 11vh;
+  top: -198vh;
+  margin: 0;
   z-index: 999;
-  margin: 1vh;
-
-  font-family: "JetBrains Mono";
-  font-style: normal;
-  font-weight: 1000;
-  font-size: 3.2vw; 
-  line-height: 1.8vh; 
-  text-align: center;
-  color: #ffffff;
-  mix-blend-mode: normal;
-}
-.tur{
-  display: flex;
+  margin-top: 1vh;
+} 
+.days2{
   flex-wrap: wrap;
   list-style-type: none;
   padding: 0;
   flex-direction: column;
   position: relative;
-  left: 83.46vw; 
-  top: -202.56vh; 
-  margin: 0
+  left: 33vw;
+  top: -258vh;
+  margin: 0;
+  z-index: 999;
 }
-.tur li{
-  width: 12vw; 
-  height: 3.5vh; 
-  cursor: pointer;
-  border-radius: 1.4vw;
-  border: none;
+#mensagem1b{
+  margin-top: 2vh;
+}
+#mensagem1c{
+  margin-top: 2vh;
+}
+#mensagem1d{
+  margin-top: 2vh;
+}
+#mensagem1e{
+  margin-top: 2vh;
+}
+#mensagem2b{
+  margin-top: 2vh;
+}
+#mensagem2c{
+  margin-top: 2vh;
+}
+#mensagem2d{
+  margin-top: 2vh;
+}
+#mensagem2e{
+  margin-top: 2vh;
+}
+.days li,
+.days2 li {
+  width: 40vw;
+  height: 11vh;
+  z-index: 999;
+  margin: 1vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  font-size: 1.4vh;
-  line-height: 2.7vh;
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 3.2vw;
+  line-height: 1.8vh;
+  color: #ffffff;
+  mix-blend-mode: normal;
 }
 
-mensagem1a {
+
+/* mensagem1a {
   position: absolute;
   width: 40vw;
   height: 10vh;
@@ -311,4 +315,4 @@ mensagem2f {
   height: 2.7vh;
   width: 11vw;
   line-height: 3vh;
-}
+} */

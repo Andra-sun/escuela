@@ -16,26 +16,41 @@
     <div class="container">
         <h1 id="retangulo1"></h1>
         <span id="titulo">Horario</span>
-        <h1 id="retangulo2"></h1>
-        <ul class="telinha">
-            <li id="caixa1"></li>
-            <li id="caixa2"></li>
-            <li id="caixa3"></li>
-            <li id="caixa4"></li>
-            <li id="caixa5"></li>
-        </ul>
-        <ul class="semaninha">
-            <li id="dia1">Segunda</li>
-            <li id="dia2">Terça</li>
-            <li id="dia3">Quarta</li>
-            <li id="dia4">Quinta</li>
-            <li id="dia5">Sexta</li>
-        </ul>
-        <div class="card">
-            <div class="tur">
-                <li id="mensagem1f"></li>
-                <li id="mensagem2f"></li>
+        <div class="estrutura">
+            <h1 id="retangulo2"></h1>
+            <ul class="telinha">
+              <li id="caixa1"></li>
+              <li id="caixa2"></li>
+              <li id="caixa3"></li>
+              <li id="caixa4"></li>
+              <li id="caixa5"></li>
+            </ul>
+            <ul class="semaninha">
+              <li id="dia1">Segunda</li>
+              <li id="dia2">Terça</li>
+              <li id="dia3">Quarta</li>
+              <li id="dia4">Quinta</li>
+              <li id="dia5">Sexta</li>
+            </ul>
+            <div id="sla">
+                <ul class="days">
+                    <li id="mensagem1a" class="message"></li>
+                    <li id="mensagem1b" class="message"></li>
+                    <li id="mensagem1c" class="message"></li>
+                    <li id="mensagem1d" class="message"></li>
+                    <li id="mensagem1e" class="message"></li>
+                </ul>
+                <ul class="days2">
+                    <li id="mensagem2a" class="message"></li>
+                    <li id="mensagem2b" class="message"></li>
+                    <li id="mensagem2c" class="message"></li>
+                    <li id="mensagem2d" class="message"></li>
+                    <li id="mensagem2e" class="message"></li>
+                </ul>
             </div>
+        </div>
+          
+        <div class="card">
             <h1 id="menu"></h1>
             <div class="menu-menu oculta" id="menuMenu">
                 <li><a href="/index.html">Menu</a></li>
@@ -52,29 +67,11 @@
                 <li onclick="exibir3d()">3ºD</li>
             </div>
             <button class="sala-botao" id="sala-but" onclick="alternarSala()">Sala</button>
-            <div id="sla">
-                <ul class="days">
-                    <li id="mensagem1a"></li>
-                    <li id="mensagem1b"></li>
-                    <li id="mensagem1c"></li>
-                    <li id="mensagem1d"></li>
-                    <li id="mensagem1e"></li>
-                </ul>
-                <ul class="days2">
-                    <li id="mensagem2a"></li>
-                    <li id="mensagem2b"></li>
-                    <li id="mensagem2c"></li>
-                    <li id="mensagem2d"></li>
-                    <li id="mensagem2e"></li>
-                </ul>
-            </div>
-
             <h1 id="materia"></h1>
             <h1 id="dia"></h1>
         </div>
     </div>
     <script src="js/sala.js"></script>
     <script src="js/menu.js"></script>
-
 </body>
 </html>

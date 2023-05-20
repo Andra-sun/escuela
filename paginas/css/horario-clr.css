@@ -20,7 +20,7 @@ body {
     margin-top: 0;
 }
 #titulo{
-    top: -8vh;
+    top: -9vh;
     position: relative;
     font-family: 'JetBrains Mono';
     font-style: normal;
@@ -32,10 +32,14 @@ body {
     text-align: center;
     transition: opacity 0.5s ease-in-out;
 }
-#retangulo2{
+.estrutura {
+    position: relative;
+    top: -30px;
+}
+#retangulo2 {
     position: relative;
     width: 82vw;
-    height: 66vh;
+    height: 70vh;
     left: 9vw;
     top: -5vh;
     background: #20CD8D;
@@ -48,10 +52,10 @@ body {
     padding: 0;
     flex-direction: column;
     position: relative;
-    top: -71.3vh;
+    top: -75.3vh;
     left: 33vw;
-    margin: 0
-} 
+    margin: 0;
+}
 .telinha li {
     width: 40vw;
     height: 11vh;
@@ -61,36 +65,41 @@ body {
     border-radius: 2.4vw;
     z-index: 3;
     margin: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.semaninha{
+.semaninha {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
     padding: 0;
     flex-direction: column;
     position: relative;
-    top: -134.2vh;
+    top: -138.5vh;
     left: 2vw;
     margin: 0;
 }
-.semaninha li{
-    width: 21vw; 
-    height: 3.2vh; 
+.semaninha li {
+    width: 21vw;
+    height: 3.2vh;
     background: #249068;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 1.4vw;
     margin-top: 1vh;
-
     font-family: 'JetBrains Mono';
     font-style: normal;
     font-weight: 400;
-    font-size: 4vw; 
-    font-size: 2vh;
+    font-size: 4vw;
     line-height: 3vh;
     text-align: center;
     color: #FFFFFF;
     mix-blend-mode: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 #dia1{
     margin-top: 6vw;
 }
@@ -105,161 +114,5 @@ body {
 }
 #dia5{
     margin-top: 20vw;
-}
-dia1 {
-    position: absolute;
-    width: 21vw; 
-    height: 3.2vh; 
-    left: 3vw; 
-    top: 20.3vh;
-    background: #249068;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 1.4vw;
-
-    font-family: 'JetBrains Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 4vw; 
-    font-size: 2vh;
-    line-height: 3vh;
-    text-align: center;
-    color: #FFFFFF;
-    mix-blend-mode: normal;
-}
-dia2 {
-    position: absolute;
-    width: 21vw; 
-    height: 3.2vh; 
-    left: 3vw;
-    top: 33.2vh;
-    background: #249068;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 1.4vw;
-
-    font-family: 'JetBrains Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 4vw; 
-    font-size: 2vh;
-    line-height: 3vh;
-    text-align: center;
-    color: #FFFFFF;
-    mix-blend-mode: normal;
-}
-dia3 {
-    position: absolute;
-    width: 21vw; 
-    height: 3.2vh; 
-    left: 3vw; 
-    top: 45.2vh; /* 418px é aproximadamente 45.2% da altura da tela (926px) */
-    background: #249068;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 1.4vw;
-
-    font-family: 'JetBrains Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 4vw; 
-    font-size: 2vh;
-    line-height: 3vh;
-    text-align: center;
-    color: #FFFFFF;
-    mix-blend-mode: normal;
-}
-dia4 {
-    position: absolute;
-    width: 21vw; 
-    height: 3.2vh; 
-    left: 3vw;
-    top: 57.2vh; /* 527px é aproximadamente 57.2% da altura da tela (926px) */
-    background: #249068;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 1.4vw;
-
-    font-family: 'JetBrains Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 4vw; 
-    font-size: 2vh;
-    line-height: 3vh;
-    text-align: center;
-    color: #FFFFFF;
-    mix-blend-mode: normal;
-}
-dia5 {
-    position: absolute;
-    width: 21vw; 
-    height: 3.2vh; 
-    left: 3vw;
-    top: 69.2vh;/* 637px é aproximadamente 69.2% da altura da tela (926px) */
-    background: #249068;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 1.4vw;
-
-    font-family: 'JetBrains Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 4vw; 
-    font-size: 2vh;
-    line-height: 3vh;
-    text-align: center;
-    color: #FFFFFF;
-    mix-blend-mode: normal;
-}
-caixa1 {
-    position: absolute;
-    width: 40vw; 
-    height: 10vh; 
-    left: 33vw; 
-    top: 18vh; 
-    background: #388367;
-    mix-blend-mode: normal;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 2.4vw;
-}
-caixa2 {
-    position: absolute;
-    width: 40vw; 
-    height: 10vh; 
-    left: 33vw; 
-    top: 30vh; 
-    background: #388367;
-    mix-blend-mode: normal;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 2.4vw;
-}
-caixa3 {
-    position: absolute;
-    width: 40vw; 
-    height: 10vh; 
-    left: 33vw; 
-    top: 42vh; 
-    background: #388367;
-    mix-blend-mode: normal;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 2.4vw;
-}
-caixa4 {
-    position: absolute;
-    width: 40vw; 
-    height: 10vh; 
-    left: 33vw; 
-    top: 54vh; 
-    background: #388367;
-    mix-blend-mode: normal;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 2.4vw;
-}
-caixa5 {
-    position:relative;
-    width: 40vw; 
-    height: 10vh; 
-    left: 33vw; 
-    top: 6vh; 
-    background: red;
-    mix-blend-mode: normal;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 2.4vw;
-
 }
 
